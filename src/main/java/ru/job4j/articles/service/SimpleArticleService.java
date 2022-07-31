@@ -14,7 +14,7 @@ public class SimpleArticleService implements ArticleService {
 
     private static final String MSG = "Генерация статей в количестве {}";
 
-    private final Logger LOGGER = LoggerFactory.getLogger(SimpleArticleService.class.getSimpleName());
+    private static final Logger LOGGER = LoggerFactory.getLogger(SimpleArticleService.class.getSimpleName());
 
     private final ArticleGenerator articleGenerator;
 
